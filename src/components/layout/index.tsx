@@ -7,7 +7,7 @@ const Layout = ({ children }: React.PropsWithChildren) => {
     <ThemedLayoutV2
       Header={Header}
       Title={titleProps => (
-        <ThemedTitleV2 {...titleProps} text="QuantumBooks" />
+        <ThemedTitleV2 {...titleProps} text="ZenithConnect CRM" />
       )}
     >
       {children}
