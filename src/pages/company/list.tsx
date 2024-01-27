@@ -19,11 +19,12 @@ const CompanyListPage = ({ children }: React.PropsWithChildren) => {
   const go = useGo();
   const { tableProps, filters } = useTable({
     resource: "companies",
-    onSearch: values => {
+    onSearch: (values: any) => {
       return [
         {
           field: "name",
           operator: "contains",
+          // do research and resolve this error
           value: values.name,
         },
       ];
