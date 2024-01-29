@@ -86,8 +86,8 @@ const DashboardLatestActivities = () => {
                   title={dayjs(deal?.createdAt).format("MMM DD, YYYY - HH:mm")}
                   avatar={
                     <CustomAvatar
-                      shape="square"
-                      size={48}
+                      shape="circle"
+                      size={"large"}
                       src={deal?.company.avatarUrl}
                       name={deal?.company.name}
                     />
