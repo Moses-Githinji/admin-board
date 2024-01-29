@@ -31,7 +31,7 @@ import TasksEditPage from "./pages/tasks/task-edit";
 function App() {
   return (
     <BrowserRouter>
-      <GitHubBanner />
+      {/* <GitHubBanner /> */}
       <RefineKbarProvider>
         <AntdApp>
           <DevtoolsProvider>
